@@ -1,0 +1,4 @@
+/home/qiwentao/project/camke_study/cmake-3.25.1-tutorial-source/Step5/cmake-build-debug/../lib/libMathFunctions.a
+/home/qiwentao/project/camke_study/cmake-3.25.1-tutorial-source/Step5/cmake-build-debug/../include/MathFunctions.h
+/home/qiwentao/project/camke_study/cmake-3.25.1-tutorial-source/Step5/cmake-build-debug/../bin/Tutorial
+/home/qiwentao/project/camke_study/cmake-3.25.1-tutorial-source/Step5/cmake-build-debug/../include/TutorialConfig.h

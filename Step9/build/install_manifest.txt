@@ -1,0 +1,4 @@
+/home/qiwentao/project/camke_study/cmake-3.25.1-tutorial-source/Step9/build/_CPack_Packages/Linux/ZIP/Tutorial-1.0-Linux/lib/libMathFunctions.a
+/home/qiwentao/project/camke_study/cmake-3.25.1-tutorial-source/Step9/build/_CPack_Packages/Linux/ZIP/Tutorial-1.0-Linux/include/MathFunctions.h
+/home/qiwentao/project/camke_study/cmake-3.25.1-tutorial-source/Step9/build/_CPack_Packages/Linux/ZIP/Tutorial-1.0-Linux/bin/Tutorial
+/home/qiwentao/project/camke_study/cmake-3.25.1-tutorial-source/Step9/build/_CPack_Packages/Linux/ZIP/Tutorial-1.0-Linux/include/TutorialConfig.h

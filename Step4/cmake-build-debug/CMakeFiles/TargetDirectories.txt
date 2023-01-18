@@ -1,0 +1,6 @@
+/home/qiwentao/project/camke_study/cmake-3.25.1-tutorial-source/Step4/cmake-build-debug/CMakeFiles/Tutorial.dir
+/home/qiwentao/project/camke_study/cmake-3.25.1-tutorial-source/Step4/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/qiwentao/project/camke_study/cmake-3.25.1-tutorial-source/Step4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/qiwentao/project/camke_study/cmake-3.25.1-tutorial-source/Step4/cmake-build-debug/MathFunctions/CMakeFiles/MathFunctions.dir
+/home/qiwentao/project/camke_study/cmake-3.25.1-tutorial-source/Step4/cmake-build-debug/MathFunctions/CMakeFiles/edit_cache.dir
+/home/qiwentao/project/camke_study/cmake-3.25.1-tutorial-source/Step4/cmake-build-debug/MathFunctions/CMakeFiles/rebuild_cache.dir

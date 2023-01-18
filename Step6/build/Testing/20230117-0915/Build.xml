@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Linux-c++"
+	BuildStamp="20230117-0915-Experimental"
+	Name="ubuntu-HP-ZHAN-99-Pro-A-G4-Microtower-PC"
+	Generator="ctest-3.16.3"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="9.4.0"
+	OSName="Linux"
+	Hostname="ubuntu-HP-ZHAN-99-Pro-A-G4-Microtower-PC"
+	OSRelease="5.15.0-57-generic"
+	OSVersion="#63~20.04.1-Ubuntu SMP Wed Nov 30 13:40:16 UTC 2022"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="25"
+	ModelID="80"
+	ProcessorCacheSize="512"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="2047"
+	TotalPhysicalMemory="31432"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="1400"
+	>
+	<Build>
+		<StartDateTime>Jan 17 17:15 CST</StartDateTime>
+		<StartBuildTime>1673946920</StartBuildTime>
+		<BuildCommand>/usr/bin/cmake --build . --config "Release"</BuildCommand>
+		<Log Encoding="base64" Compression="bin/gzip"/>
+		<EndDateTime>Jan 17 17:15 CST</EndDateTime>
+		<EndBuildTime>1673946920</EndBuildTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Build>
+</Site>

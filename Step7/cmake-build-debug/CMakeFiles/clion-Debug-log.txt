@@ -1,0 +1,8 @@
+/snap/clion/218/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_C_COMPILER=/usr/bin/cc -DCMAKE_CXX_COMPILER=/usr/bin/c++ -G "CodeBlocks - Unix Makefiles" -S /home/qiwentao/project/camke_study/cmake-3.25.1-tutorial-source/Step7 -B /home/qiwentao/project/camke_study/cmake-3.25.1-tutorial-source/Step7/cmake-build-debug
+-- Performing Test HAVE_LOG
+-- Performing Test HAVE_LOG - Success
+-- Performing Test HAVE_EXP
+-- Performing Test HAVE_EXP - Success
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/qiwentao/project/camke_study/cmake-3.25.1-tutorial-source/Step7/cmake-build-debug
