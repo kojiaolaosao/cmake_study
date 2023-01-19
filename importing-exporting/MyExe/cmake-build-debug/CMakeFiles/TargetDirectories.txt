@@ -1,0 +1,7 @@
+/home/qiwentao/project/camke_study/importing-exporting/MyExe/cmake-build-debug/CMakeFiles/myexe.dir
+/home/qiwentao/project/camke_study/importing-exporting/MyExe/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/qiwentao/project/camke_study/importing-exporting/MyExe/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/qiwentao/project/camke_study/importing-exporting/MyExe/cmake-build-debug/CMakeFiles/list_install_components.dir
+/home/qiwentao/project/camke_study/importing-exporting/MyExe/cmake-build-debug/CMakeFiles/install.dir
+/home/qiwentao/project/camke_study/importing-exporting/MyExe/cmake-build-debug/CMakeFiles/install/local.dir
+/home/qiwentao/project/camke_study/importing-exporting/MyExe/cmake-build-debug/CMakeFiles/install/strip.dir

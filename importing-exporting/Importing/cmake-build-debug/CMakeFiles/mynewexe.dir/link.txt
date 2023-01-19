@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/mynewexe.dir/main.cc.o -o mynewexe 
