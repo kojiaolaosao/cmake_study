@@ -3,6 +3,7 @@ cmake_minimum_required(VERSION 3.15)
 # set the project name and version
 project(Tutorial VERSION 1.0)
 
+set(CMAKE_INSTALL_PREFIX ..)
 # specify the C++ standard
 add_library(tutorial_compiler_flags INTERFACE)
 target_compile_features(tutorial_compiler_flags INTERFACE cxx_std_11)
@@ -82,3 +83,54 @@ set(CPACK_PACKAGE_VERSION_MAJOR "${Tutorial_VERSION_MAJOR}")
 set(CPACK_PACKAGE_VERSION_MINOR "${Tutorial_VERSION_MINOR}")
 set(CPACK_SOURCE_GENERATOR "TGZ")
 include(CPack)
+
+#2.当MathFunctions导出MathFunctionsTargets，我们还需要显示安装生成的MathFunctionsTargets.cmake文件。
+install(EXPORT MathFunctionsTargets
+        FILE MathFunctionsTargets.cmake
+        DESTINATION lib/cmake/MathFunctions
+        )
+
+include(CMakePackageConfigHelpers)
+
+#生成包含导出的配置文件
+configure_package_config_file(
+        ${CMAKE_CURRENT_SOURCE_DIR}/Config.cmake.in
+        ${CMAKE_CURRENT_BINARY_DIR}/MathFunctionsConfig.cmake
+        INSTALL_DESTINATION lib/cmake/example
+        NO_SET_AND_CHECK_MACRO
+        NO_CHECK_REQUIRED_COMPONENTS_MACRO
+)
+
+write_basic_package_version_file(
+        ${CMAKE_CURRENT_BINARY_DIR}/MathFunctionsConfigVersion.cmake
+        VERSION ${Tutorial_VERSION_MAJOR}.${Tutorial_VERSION_MINOR}
+        COMPATIBILITY AnyNewerVersion
+)
+
+#安装俩个生成的文件
+install(
+        FILES
+        ${CMAKE_CURRENT_BINARY_DIR}/MathFunctionsConfig.cmake
+        ${CMAKE_CURRENT_BINARY_DIR}/MathFunctionsConfigVersion.cmake
+        DESTINATION lib/cmake/MathFunctions
+)
+#这里,我们已经生成了一个可重定位的CMake配置并是可以在项目安装或者打包后使用的.如果我们想让我们的项目也能够在构建目录使用.
+export(
+        EXPORT MathFunctionsTargets
+        FILE ${CMAKE_CURRENT_BINARY_DIR}/MathFunctionsTargets.cmake
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

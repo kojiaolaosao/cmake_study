@@ -3,9 +3,15 @@ add_library(MathFunctions MathFunctions.cxx)
 
 # state that anybody linking to us needs to include the current source dir
 # to find MathFunctions.h, while we don't.
+
+#3.CMake报错描述的是在生成导出信息期间,会导出内在绑定到当前设备的路径,在其他设备上可能无效.解决方案是更新
+#MathFunctions的target_include_directories(),以明确在从构建目录使用和从安装包使用时需要不同的INTERFACE位置.
+#这意味着MathFunctions的target_include_directories()调用应改为如下:
 target_include_directories(MathFunctions
-                           INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}
-                           )
+        INTERFACE
+        $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}>
+        $<INSTALL_INTERFACE:include>
+        )
 
 # should we use our own math functions
 option(USE_MYMATH "Use tutorial provided math implementation" ON)
@@ -55,6 +61,10 @@ set(installable_libs MathFunctions tutorial_compiler_flags)
 if(TARGET SqrtLibrary)
   list(APPEND installable_libs SqrtLibrary)
 endif()
-install(TARGETS ${installable_libs} DESTINATION lib)
+
+# install libs 并且 1.到处一个MathFunctionsTargets.cmake文件，其中包含用于 从安装树导入安装命令中列出的所有目标 的代码
+install(TARGETS ${installable_libs}
+        EXPORT MathFunctionsTargets
+        DESTINATION lib)
 # install include headers
 install(FILES MathFunctions.h DESTINATION include)

@@ -354,6 +354,9 @@
 		<Unit filename="/home/qiwentao/project/camke_study/cmake-3.25.1-tutorial-source/Step11/CTestConfig.cmake">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
+		<Unit filename="/home/qiwentao/project/camke_study/cmake-3.25.1-tutorial-source/Step11/Config.cmake.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
 		<Unit filename="/home/qiwentao/project/camke_study/cmake-3.25.1-tutorial-source/Step11/TutorialConfig.h.in">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

@@ -9,11 +9,13 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "/home/qiwentao/project/camke_study/cmake-3.25.1-tutorial-source/Step11/CMakeLists.txt"
   "/home/qiwentao/project/camke_study/cmake-3.25.1-tutorial-source/Step11/CTestConfig.cmake"
+  "/home/qiwentao/project/camke_study/cmake-3.25.1-tutorial-source/Step11/Config.cmake.in"
   "/home/qiwentao/project/camke_study/cmake-3.25.1-tutorial-source/Step11/MathFunctions/CMakeLists.txt"
   "/home/qiwentao/project/camke_study/cmake-3.25.1-tutorial-source/Step11/TutorialConfig.h.in"
   "CMakeFiles/3.24.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.24.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.24.2/CMakeSystem.cmake"
+  "/snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
   "/snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCInformation.cmake"
   "/snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCXXInformation.cmake"
   "/snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake"
@@ -22,6 +24,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/CMakeGenericSystem.cmake"
   "/snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake"
   "/snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake"
+  "/snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/CMakePackageConfigHelpers.cmake"
   "/snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake"
   "/snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake"
   "/snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/CPack.cmake"
@@ -41,6 +44,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/Platform/Linux.cmake"
   "/snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/Platform/UnixPaths.cmake"
   "/snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/ProcessorCount.cmake"
+  "/snap/clion/218/bin/cmake/linux/share/cmake-3.24/Modules/WriteBasicConfigVersionFile.cmake"
   "/snap/clion/218/bin/cmake/linux/share/cmake-3.24/Templates/CPackConfig.cmake.in"
   )
 
@@ -56,6 +60,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "DartConfiguration.tcl"
   "CPackConfig.cmake"
   "CPackSourceConfig.cmake"
+  "MathFunctionsConfig.cmake"
+  "MathFunctionsConfigVersion.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "MathFunctions/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
